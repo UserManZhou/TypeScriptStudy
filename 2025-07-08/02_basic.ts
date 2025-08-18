@@ -12,8 +12,14 @@ b = "HELLO";
 let c: boolean;
 
 c = true;
+
 // c=123;
 
+/**
+ * 求和
+ * @param a
+ * @param b
+ */
 function sum(a: number, b: number) {
     return a + b;
 }
