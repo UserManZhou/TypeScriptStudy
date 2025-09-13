@@ -1,17 +1,17 @@
-let a: number;
+let a1: number;
 
 // 上面已经定义number不能赋值字符串
 // a = "1";
 
-a = 1;
-a = 2;
+a1 = 1;
+a1 = 2;
 
-let b: string;
-b = "HELLO";
+let b1: string;
+b1 = "HELLO";
 
-let c: boolean;
+let c1: boolean;
 
-c = true;
+c1 = true;
 
 // c=123;
 
