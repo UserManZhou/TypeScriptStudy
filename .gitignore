@@ -137,3 +137,10 @@ node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json
 node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json
 package-lock.json
 package.json
+.idea/.gitignore
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/TypeScriptStudy.iml
+.idea/vcs.xml
+.vscode/settings.json
