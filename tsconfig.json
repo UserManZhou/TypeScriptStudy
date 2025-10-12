@@ -27,6 +27,14 @@
    // allowJs 是否允许编译js文件
    "allowJs": true,
    // checkJs 是否检查js是否符合js语法规范
-   "checkJs": true
+   "checkJs": true,
+   // removeComments 是否移除注释
+   "removeComments": true,
+   // noEmit 是否不生成编译后的文件
+   "noEmit": false,
+   // noEmitOnError 是否在编译过程中遇到错误时不生成编译后的文件
+   "noEmitOnError": true,
+   // alwaysStrict 是否开启严格模式
+   "alwaysStrict": true
  }
 }
