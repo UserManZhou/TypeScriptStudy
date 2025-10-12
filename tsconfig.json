@@ -25,6 +25,8 @@
    // outFile 用来指定编译后的文件所在目录,不能和module一起使用
    "outFile": "./dist/app.js",
    // allowJs 是否允许编译js文件
-   "allowJs": true
+   "allowJs": true,
+   // checkJs 是否检查js是否符合js语法规范
+   "checkJs": true
  }
 }
