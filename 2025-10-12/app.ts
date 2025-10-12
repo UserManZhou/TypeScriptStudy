@@ -1,0 +1,1 @@
+const dd : string = "312312";
