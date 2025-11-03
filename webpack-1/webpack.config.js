@@ -2,6 +2,8 @@
 const path = require("path");
 //引入html-webpack-plugin插件
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+//引入clean-webpack-plugin插件
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 // webpack 配置
 module.exports = {
@@ -39,5 +41,12 @@ module.exports = {
       //template 指定要使用的html模板文件
       template: "./src/index.html",
     }),
+    //  配置clean-webpack-plugin插件
+    new CleanWebpackPlugin(),
   ],
+  //用来设置模块的解析规则
+  resolve: {
+    // 配置文件扩展名
+    extensions: [".ts", ".js"],
+  },
 };
