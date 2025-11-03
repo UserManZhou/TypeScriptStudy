@@ -1,40 +1,46 @@
 {
-/**
- * 这是一个TypeScript配置文件
- */
- // include 包含哪些文件 （默认包含所有的ts文件） 
- "include":[
+  /**
+   * 这是一个TypeScript配置文件
+   */
+  // include 包含哪些文件 （默认包含所有的ts文件）
+  "include": [
     // ** 表示任意目录
     // * 表示任意文件
     "./src/**/*"
-   ],
- // exclude 排除哪些文件 （默认排除所有的spec.ts文件）
- "exclude": [
-    "./src/**/*.spec.ts"
- ],
- // compilerOptions 编译选项
- "compilerOptions" : {
-   // 指定TS被编译的版本
-   "target": "es2015",
-   // 指定要使用的模块规范
-   //"module": "es2015",
-   // 指定编译的库文件
-   //"lib": ["es2015"],
-   // outDir 用来指定编译后的文件所在目录
-   "outDir": "./dist",
-   // outFile 用来指定编译后的文件所在目录,不能和module一起使用
-   "outFile": "./dist/app.js",
-   // allowJs 是否允许编译js文件
-   "allowJs": true,
-   // checkJs 是否检查js是否符合js语法规范
-   "checkJs": true,
-   // removeComments 是否移除注释
-   "removeComments": true,
-   // noEmit 是否不生成编译后的文件
-   "noEmit": false,
-   // noEmitOnError 是否在编译过程中遇到错误时不生成编译后的文件
-   "noEmitOnError": true,
-   // alwaysStrict 是否开启严格模式
-   "alwaysStrict": true
- }
+  ],
+  // exclude 排除哪些文件 （默认排除所有的spec.ts文件）
+  "exclude": ["./src/**/*.spec.ts"],
+  // compilerOptions 编译选项
+  "compilerOptions": {
+    // 指定TS被编译的版本
+    "target": "es2015",
+    // 指定要使用的模块规范
+    //"module": "es2015",
+    // 指定编译的库文件
+    //"lib": ["es2015"],
+    // outDir 用来指定编译后的文件所在目录
+    "outDir": "./dist",
+    // outFile 用来指定编译后的文件所在目录,不能和module一起使用
+    "outFile": "./dist/app.js",
+    // allowJs 是否允许编译js文件
+    "allowJs": true,
+    // checkJs 是否检查js是否符合js语法规范
+    "checkJs": true,
+    // removeComments 是否移除注释
+    "removeComments": true,
+    // noEmit 是否不生成编译后的文件
+    "noEmit": false,
+    // noEmitOnError 是否在编译过程中遇到错误时不生成编译后的文件
+    "noEmitOnError": true,
+    // alwaysStrict 是否开启严格模式
+    "alwaysStrict": true,
+    // noImplicitAny 是否不允许隐式的any类型
+    "noImplicitAny": true,
+    // noImplicitThis 是否不允许不明确的this类型
+    "noImplicitThis": true,
+    // strictNullChecks 是否开启严格的空值检查
+    "strictNullChecks": true,
+    // strict 是否开启严格模式
+    "strict": false
+  }
 }
