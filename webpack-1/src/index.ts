@@ -10,4 +10,5 @@ const obj = {
 console.log(add(1, 2))
 console.log('hello webpack')
 console.log(m1)
-console.log(obj.name)
+console.log(obj)
+console.log(Permissions)
