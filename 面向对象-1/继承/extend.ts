@@ -17,9 +17,21 @@
     }
   }
   // dog 狗类 extends 继承自动物类
-  class Dog extends Animal {}
+  class Dog extends Animal {
+    // 重写动物的说话方法
+    say() {
+      // 狗的说话方法
+      console.log(this.name + '在说话');
+    }
+  }
   // cat 猫类 extends 继承自动物类
-  class Cat extends Animal {}
+  class Cat extends Animal {
+    // 重写动物的说话方法
+    say() {
+      // 猫的说话方法
+      console.log(this.name + '在说话');
+    }
+  }
   // 实例化一个狗对象
   const dog = new Dog('旺财', 1);
   // 调用狗的说话方法
