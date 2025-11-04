@@ -1,5 +1,5 @@
 "use strict";
-//class person 类
+//class person
 class Person {
     // 构造函数
     constructor(name, age) {

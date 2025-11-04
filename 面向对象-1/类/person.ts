@@ -1,10 +1,14 @@
-//class person 类
+//class person
 class Person {
   // 构造函数
   constructor(name: string, age: number) {
     this.name = name;
     this.age = age;
   }
+  // 构造函数
+  /* constructor() {
+    
+   } */
   // 实例属性
   name: string;
   // 实例属性
