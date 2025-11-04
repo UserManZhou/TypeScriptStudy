@@ -1,7 +1,7 @@
 {
-    "singleQuote": true,
-    "semi": false,
-    "tabWidth": 2,
-    "endOfLine": "auto",
-    "bracketSameLine": false
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": 2,
+  "endOfLine": "auto",
+  "bracketSameLine": false
 }
