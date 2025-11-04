@@ -30,8 +30,27 @@ module.exports = {
         //  配置babel-loader
         {
           loader: "babel-loader",
+          // options 配置babel-loader的参数
           options: {
-            presets: ["@babel/preset-env"],
+            // presets 配置预定义的环境
+            presets: [
+              // 指定要使用的环境
+              ["@babel/preset-env", 
+                {
+              // 配置要兼容的浏览器版本
+              targets: {
+                // 谷歌浏览器版本60及以上
+                chrome: "60",
+                // ie浏览器版本11及以上
+                ie: "11",
+                  },
+              //  配置useBuiltIns参数为usage
+              useBuiltIns: "usage",
+              //  配置corejs参数为3
+              corejs: 3,
+            }
+           ]
+          ],
           },
         },"ts-loader" ],
         //exclude 要排除的文件
