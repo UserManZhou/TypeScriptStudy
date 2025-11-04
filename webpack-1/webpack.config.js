@@ -26,7 +26,14 @@ module.exports = {
         //test 匹配要使用的loader的文件类型
         test: /\.ts$/,
         //use 要使用的loader
-        use: "ts-loader",
+        use: [
+        //  配置babel-loader
+        {
+          loader: "babel-loader",
+          options: {
+            presets: ["@babel/preset-env"],
+          },
+        },"ts-loader" ],
         //exclude 要排除的文件
         exclude: /node_modules/,
       },
